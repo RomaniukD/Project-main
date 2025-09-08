@@ -11,7 +11,7 @@ h1{
 header, footer {
     text-align: center;
     background-color: #4d898a;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 #flex_section{
@@ -37,5 +37,6 @@ footer {
     position: absolute;
     width: 100%;
 }
+
 
 
