@@ -1,10 +1,17 @@
 const section = document.getElementById('flex_section');
-const project = 9;
-for(i=1; i<1+project;i++) {
-    const tekstDiv = `<a href="https://romaniukd.github.io/Project-0${i}/"><div class="flex_div button"><h2>Project 0${i}</h2></div>`
-    section.innerHTML += tekstDiv
+const project = 12;
+
+for (let i = 1; i <= project; i++) {
+    // Pad numbers less than 10 with a leading 0
+    let padded = i < 10 ? `0${i}` : `${i}`;
+
+    const tekstDiv = `
+        <a href="https://romaniukd.github.io/Project-${padded}/">
+            <div class="flex_div button">
+                <h2>Project ${padded}</h2>
+            </div>
+        </a>
+    `;
+
+    section.innerHTML += tekstDiv;
 }
-
-
-
-
