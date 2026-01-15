@@ -34,7 +34,7 @@ a {
 
 footer {
     bottom: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -58,5 +58,6 @@ footer {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 
 
