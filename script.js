@@ -1,5 +1,5 @@
 const section = document.getElementById('flex_section');
-const project = 40;
+const project = 60;
 
 for (let i = 1; i <= project; i++) {
     // Pad numbers less than 10 with a leading 0
@@ -15,6 +15,7 @@ for (let i = 1; i <= project; i++) {
 
     section.innerHTML += tekstDiv;
 }
+
 
 
 
